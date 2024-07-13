@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.wrapper {
+  width: 410px;
+  background-color: hsl(0, 0%, 11%);
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 220px;
+  padding: 20px 20px 20px 20px;
+}
+.content {
+  padding: 40px 100px 60px 90px;
+}
+
+.content img {
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+h4 {
+  color: hsl(75, 94%, 57%);
+}
+
+h4,
+p {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.github_btn {
+  width: 329px;
+  height: 5vh;
+  padding: 10px 10px 10px 10px;
+  margin-left: -39%;
+  border-radius: 10px;
+  border-style: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 760;
+}
+.frontend_mentor {
+  width: 329px;
+  height: 5vh;
+  padding: 10px 10px 10px 10px;
+  margin-left: -39%;
+  border-radius: 10px;
+  border-style: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 760;
+}
+.LinkedIn {
+  width: 329px;
+  height: 5vh;
+  padding: 10px 10px 10px 10px;
+  margin-left: -39%;
+  border-radius: 10px;
+  border-style: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 760;
+}
+.Twitter {
+  width: 329px;
+  height: 5vh;
+  padding: 10px 10px 10px 10px;
+  margin-left: -39%;
+  border-radius: 10px;
+  border-style: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 760;
+}
+.instagram_btn {
+  width: 329px;
+  height: 5vh;
+  padding: 10px 10px 10px 10px;
+  margin-left: -39%;
+  border-radius: 10px;
+  border-style: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 760;
+}
